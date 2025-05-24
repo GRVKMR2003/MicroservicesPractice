@@ -1,5 +1,5 @@
 
-# Microservices Practice
+# Microservices Practice (Learning)
 
 ## Overview
 This project is a practice implementation of microservices architecture using Spring Boot. It includes multiple services such as API Gateway, Hotel Service, and Rating Service. Each service is designed to demonstrate various aspects of microservices including service discovery, load balancing, and inter-service communication.
