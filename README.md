@@ -37,8 +37,6 @@ Supports routing, filtering, authentication, rate limiting, CORS, etc.
 Prevents cascading failures using circuit breaker, retry, rate limiter, and fallback.
 Example: If Rating-Service is down, fallback to default data.
 
-### DevOps
-- **Docker**: Platform for developing, shipping, and running applications.
 
 ## Prerequisites
 - Java 21
