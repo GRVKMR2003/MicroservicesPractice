@@ -23,6 +23,20 @@ This project is a practice implementation of microservices architecture using Sp
 - **Lombok**: Java library that automatically plugs into your editor and build tools, simplifying Java development.
 - **MySQL**: Relational database management system.
 
+
+🚀 Top Features of Spring Cloud
+1. 🔍 Service Discovery (Eureka, Consul, Zookeeper)
+Allows services to register themselves and discover each other dynamically.
+Example: User-Service finds Rating-Service using service name via Eureka.
+
+2. 🌐 API Gateway (Spring Cloud Gateway)
+Acts as a single entry point for all client requests.
+Supports routing, filtering, authentication, rate limiting, CORS, etc.
+
+3. 🛡️ Circuit Breaker & Resilience (Resilience4j, previously Hystrix)
+Prevents cascading failures using circuit breaker, retry, rate limiter, and fallback.
+Example: If Rating-Service is down, fallback to default data.
+
 ### DevOps
 - **Docker**: Platform for developing, shipping, and running applications.
 
